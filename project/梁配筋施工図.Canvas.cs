@@ -1289,7 +1289,7 @@ namespace RevitProjectDataAddin
                 allSolids.AddRange(ss);
             }
             WriteSimpleDxf(dlg.FileName, allLines, allTexts, allCircs, allSolids, flipY: true);
-            MessageBox.Show("DXF exported!123");
+            MessageBox.Show("DXF exported!123456789");
         }
 
         private void ExportItemDxf_Click(object sender, RoutedEventArgs e)
